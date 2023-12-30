@@ -1,4 +1,4 @@
-# Flutter Mobile App - Random Number Game
+# Flutter Mobile App - Random 60 Game
 
 ## Overview
 
@@ -8,8 +8,19 @@ This Flutter mobile app is a simple game that challenges users to tap a button a
 
 1. **Splash Page:**
    - Displayed for 1.5 seconds during app launch.
+<p align="center">
+<img src="appImages/splash_screen.png" alt="Splash Screen" width="300" height="500">
+</p>
+
 
 2. **Game Page:**
+
+   
+<div align="center">
+  <img src="appImages/app_structure.jpg" alt="App Structure" width="500" height="500">
+</div>
+
+
    - **Widget 1 (Seconds Display):**
      - Shows the seconds elapsed from the last tap.
    - **Widget 2 (Random Number):**
@@ -31,19 +42,30 @@ This Flutter mobile app is a simple game that challenges users to tap a button a
 
 4. **Persistence:**
    - All game values are retained upon closing and reopening the app.
+  
+ <p align="center">
+  <img src="appImages/success_attempt.png" alt="Success Screen" width="300" height="600" style="margin-right: 10px;">
+<img src="appImages/Failed_Attempt.png" alt="Failed Screen" width="300" height="600" style="margin-right: 10px;">
+<img src="appImages/timed_out.png" alt="Timed out Screen"  width="300" height="600">
+ </p>
+
+   
+
+
+
 
 ## How to Run
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/NishantM-7/kjbn.git
     ```
 
 2. Navigate to the project folder:
 
     ```bash
-    cd your-repo
+    cd kjbn
     ```
 
 3. Open the project in your preferred Flutter development environment.
